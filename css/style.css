@@ -10,3 +10,33 @@
 /*-------------
     COMMONS
 --------------*/
+body {
+    color: #000;
+    background-color: aqua;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/*-------------
+    HEADER
+--------------*/
+header {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.main-nav li, .main-nav li a {
+    display: inline-block;
+}
+.main-nav li a {
+    text-decoration: none;
+    color: inherit;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    margin-left: 16px;
+    box-shadow: 1px 2px 5px #888;
+}
