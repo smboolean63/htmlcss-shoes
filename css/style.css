@@ -61,6 +61,9 @@ section {
 #shoes-1 {
     background-color: red;
 }
+#shoes-2 {
+    background-color: green;
+}
 
 .box {
     position: absolute;
